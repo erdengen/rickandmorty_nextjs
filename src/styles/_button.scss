@@ -1,0 +1,8 @@
+.btn-link {
+    @apply flex flex-col bg-green-500 px-6 py-3;
+  
+    &:hover {
+      @apply bg-black text-white;
+      box-shadow: 3px 6px 20px rgba(0, 0, 0, 0.336);
+    }
+  } 

@@ -12,13 +12,19 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
+    "useUnknownInCatchVariables": false,
+    "noImplicitAny": false,
     "plugins": [
       {
         "name": "next"
       }
     ],
     "paths": {
-      "@/components/*": ["./src/*"]
+      "@/components/*": ["./src/app/components/*"],
+      "@/config/*": ["./src/app/_config/*"],
+      "@/shared/*": ["./src/app/_shared/*"],
+      "@/lib/*": ["./src/app/lib/*"],
+      "@/helpers/*": ["./src/helpers/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
