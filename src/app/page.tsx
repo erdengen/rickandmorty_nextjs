@@ -1,6 +1,6 @@
 "use client";
 
-import MyComponent from "./components/MyComponent";
+import MyComponent from "@/components/MyComponent";
 import { useRef, useState } from "react";
 import { XMarkIcon, MagnifyingGlassIcon } from "@heroicons/react/24/solid";
 
